@@ -47,7 +47,3 @@ Estratégia: Descubra todos os vértices na distância k de S antes de descobrir
 Desvantagens:
 1.	A distância do caminho mais curto de S a todos os vértices é encontrada
 2.	Uma árvore primeira em largura é construída
-
-
-
-
