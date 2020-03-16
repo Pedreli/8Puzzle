@@ -32,15 +32,15 @@ Então, no meu pensamento Greedy Search é uma estratégia gulosa que tem por ab
 <p>São algoritmos de pesquisa de profundidade e largura primeiro, e pelo que pesquisei existem dois tipos: o depth-first e o breadth-first. Resumindo, é um algoritmos de pesquisa de largura em primeiro lugar que realizam pesquisas explorando o gráfico uma camada por vez. Eles começam com os nós um nível acima do nó inicial, seguidos pelos nós na profundidade dois, depois na profundidade três e assim por diante até que o gráfico inteiro seja percorrido.</p>
  
 
-<p>Depth-first (DFS)
-Objetivo: Dado um gráfico e um vértice S, descobrir cada vértice no alcance gráfico de S .
-Estratégia: Assim que um vértice é descoberto, uma nova profundidade é explorada (se possível), mesmo que nem todos os vértices nas profundidades anteriores tenham sido descobertos.</p>
+<p>Depth-first (DFS)</p>
+<p>Objetivo: Dado um gráfico e um vértice S, descobrir cada vértice no alcance gráfico de S.</p>
+<p>Estratégia: Assim que um vértice é descoberto, uma nova profundidade é explorada (se possível), mesmo que nem todos os</p> <p>vértices nas profundidades anteriores tenham sido descobertos.</p>
 
 <p>Desvantagens:</p>
 <p>1.	Uma árvore em profundidade é construída</p>
 <p>2.	No entanto, a distância do caminho mais curto de S a todos os vértices não é garantida</p>
 
-
+<p></p>
 <p>Breadth-first (BFS)</p>
 <p>Objetivo: Dado um gráfico e um vértice S, descobrir cada vértice no alcance gráfico de S.</p>
 <p>Estratégia: Descubra todos os vértices na distância k de S antes de descobrir qualquer vértice na distância k + 1.</p>
