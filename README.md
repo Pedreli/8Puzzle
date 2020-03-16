@@ -36,15 +36,15 @@ Então, no meu pensamento Greedy Search é uma estratégia gulosa que tem por ab
 Objetivo: Dado um gráfico e um vértice S, descobrir cada vértice no alcance gráfico de S .
 Estratégia: Assim que um vértice é descoberto, uma nova profundidade é explorada (se possível), mesmo que nem todos os vértices nas profundidades anteriores tenham sido descobertos.</p>
 
-<p>Desvantagens:
-1.	Uma árvore em profundidade é construída
-2.	No entanto, a distância do caminho mais curto de S a todos os vértices não é garantida</p>
+<p>Desvantagens:</p>
+<p>1.	Uma árvore em profundidade é construída</p>
+<p>2.	No entanto, a distância do caminho mais curto de S a todos os vértices não é garantida</p>
 
 
-<p>Breadth-first (BFS)
-Objetivo: Dado um gráfico e um vértice S, descobrir cada vértice no alcance gráfico de S.
-Estratégia: Descubra todos os vértices na distância k de S antes de descobrir qualquer vértice na distância k + 1.</p>
+<p>Breadth-first (BFS)</p>
+<p>Objetivo: Dado um gráfico e um vértice S, descobrir cada vértice no alcance gráfico de S.</p>
+<p>Estratégia: Descubra todos os vértices na distância k de S antes de descobrir qualquer vértice na distância k + 1.</p>
 
-<p>Desvantagens:
-1.	A distância do caminho mais curto de S a todos os vértices é encontrada
-2.	Uma árvore primeira em largura é construída</p>
+<p>Desvantagens:</p>
+<p>1.	A distância do caminho mais curto de S a todos os vértices é encontrada</p>
+<p>2.	Uma árvore primeira em largura é construída</p>
